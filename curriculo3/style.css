@@ -12,6 +12,15 @@ body {
   padding: 20px;
 }
 
+main {
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -47,17 +56,8 @@ header {
   width: 120px;
   height: 120px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 8px; 
   border: 2px solid #0077cc;
-}
-
-main {
-  max-width: 900px;
-  margin: auto;
-  background: #ffffff;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 main section {
